@@ -1,0 +1,30 @@
+{
+  "name": "observable-sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.46",
+    "react": "^18.2.0",
+    "@op-engineering/op-sqlite": "^2.0.9"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.2.46",
+    "react": "^18.2.0",
+    "@op-engineering/op-sqlite": "^2.0.9"
+  },
+  "dependencies": {}
+}
